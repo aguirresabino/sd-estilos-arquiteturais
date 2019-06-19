@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="node1" />
+        <module name="cliente" />
+        <module name="node3" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="node1 (1) (br.edu.ifpb.sd.questao01)" target="11" />
+      <module name="node1 (2) (br.edu.ifpb.questao02)" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="node1" options="" />
+      <module name="node1 (1) (br.edu.ifpb.sd.questao01)" options="-endorseddirs $PROJECT_DIR$/target/endorsed" />
+    </option>
+  </component>
+</project>
